@@ -1,4 +1,4 @@
-package kotlin.api.client.http.client
+package k.client
 
 import io.ktor.client.HttpClient
 

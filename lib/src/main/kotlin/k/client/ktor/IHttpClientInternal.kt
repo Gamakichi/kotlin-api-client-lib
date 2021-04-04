@@ -1,10 +1,10 @@
-package kotlin.api.client.ktor
+package k.client.ktor
 
 import io.ktor.client.request.*
 import io.ktor.http.*
 import kotlinx.serialization.json.Json
-import kotlin.api.client.HttpClient
-import kotlin.api.client.http.client.KtorHttpClient
+import k.client.HttpClient
+import k.client.KtorHttpClient
 
 
 suspend inline fun <reified T> KtorHttpClient.send(request: HttpRequestBuilder): T {

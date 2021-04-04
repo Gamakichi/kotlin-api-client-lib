@@ -1,11 +1,11 @@
-package kotlin.api.client.ktor
+package k.client.ktor
 
 import io.ktor.client.features.*
 import io.ktor.client.features.json.*
 import io.ktor.client.features.json.serializer.*
 import io.ktor.http.*
 import kotlinx.serialization.json.Json
-import kotlin.api.client.HttpClient
+import k.client.HttpClient
 import io.ktor.client.HttpClient as ktorHttpClient
 
 

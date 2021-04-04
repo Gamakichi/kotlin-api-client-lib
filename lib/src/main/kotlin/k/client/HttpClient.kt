@@ -1,7 +1,7 @@
-package kotlin.api.client
+package k.client
 
-import kotlin.api.client.ktor.IKtorHttpClientInternal
-import kotlin.api.client.ktor.send
+import k.client.ktor.IKtorHttpClientInternal
+import k.client.ktor.send
 import kotlinx.serialization.decodeFromString
 
 interface HttpClient : IKtorHttpClientInternal

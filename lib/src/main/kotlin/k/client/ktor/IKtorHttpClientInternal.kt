@@ -1,6 +1,6 @@
-package kotlin.api.client.ktor
+package k.client.ktor
 
-import kotlin.api.client.http.client.KtorHttpClient
+import k.client.KtorHttpClient
 import io.ktor.client.request.*
 import io.ktor.http.*
 import kotlinx.serialization.json.Json
